@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Schoolbell-Regular;
+    src: url(forras/Schoolbell-Regular.ttf)
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Schoolbell-Regular;
+    margin: auto;
+}
+
+body {
+    background-image: url(forras/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: grid;
+    
+    
+
+}
+
+main {
+    max-width: 90vw;
+    min-height: calc(100vh - 128px);
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    border: 3px solid black;
+}
+
+section {
+    margin-inline: 32px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+nav {
+    align-items: center;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #8d5b1a;
+    background-color: #feda70;
+    font-size: 20px;
+    border-radius: 12px;
+    margin-inline: 0.5rem;
+    border: 3px solid black;
+    ali
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 56px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 24px;
+    max-width: 60ch;
+    font-weight: 400;
+
+}
+
+article {
+    height: fit-content;
+    max-width: 1080px;
+    margin: auto;
+    display: grid;
+}
+
+article img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    
+}
+
+table {
+    max-width: 1080px;
+
+ 
+}
+
+th {
+    background-color: #8d5b1a;
+    color: #feda70;
+}
+
+tr:nth-child(even){
+    background-color: #8d5b1a;
+    color: #feda70;
+}
+
+tr:nth-child(odd){
+    background-color: #feda70;
+    color: black
+}
