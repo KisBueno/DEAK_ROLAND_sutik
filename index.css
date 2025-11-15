@@ -84,9 +84,7 @@ article {
     height: fit-content;
     max-width: 1080px;
     margin: auto;
-    display: grid;
-    grid-template-columns: 3fr 3fr;
-    gap: 1rem;
+    
 
 }
 
@@ -116,6 +114,8 @@ aside {
 
 table {
     max-width: 1080px;
+    padding: 0;
+    margin: 0;
 
  
 }
