@@ -8,7 +8,8 @@
     padding: 0;
     margin: 0;
     font-family: Schoolbell-Regular;
-    margin: auto;
+    
+   
 }
 
 body {
@@ -18,7 +19,9 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     display: grid;
-    
+    padding-inline: 32px;
+    padding-block: 64px;
+
     
 
 }
@@ -26,21 +29,24 @@ body {
 main {
     max-width: 90vw;
     min-height: calc(100vh - 128px);
-    align-items: center;
     background-color: white;
     border-radius: 25px;
     border: 3px solid black;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
 }
 
 section {
     margin-inline: 32px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+ 
+
 }
 
 nav {
-    align-items: center;
+    
+
+    
     
 }
 
@@ -50,9 +56,11 @@ nav a {
     background-color: #feda70;
     font-size: 20px;
     border-radius: 12px;
-    margin-inline: 0.5rem;
+    text-align: center;
     border: 3px solid black;
-    ali
+
+    
+    
 }
 
 h1 {
@@ -77,6 +85,9 @@ article {
     max-width: 1080px;
     margin: auto;
     display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 1rem;
+
 }
 
 article img {
@@ -87,8 +98,20 @@ article img {
 
 footer {
     text-align: center;
-    color: white;
+    background-color: #8d5b1a;
+    color: #feda70;
+    display: grid;
+    max-width: 1080px;
+    border-radius: 12px;
+    margin-top: 16px;
+
+
     
+}
+
+aside {
+    padding: 0;
+    margin: 0;
 }
 
 table {
